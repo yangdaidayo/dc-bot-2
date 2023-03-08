@@ -1,8 +1,8 @@
 import { SlashCommandBuilder } from "discord.js";
 
 export const command = new SlashCommandBuilder()
- .setName('心海')
- .setDescription('心海的素材')
+ .setName('珊瑚宮心海')
+ .setDescription('珊瑚宮心海的素材')
 
 export const action = async (ctx) =>{
     ctx.reply(`突破素材:珊瑚珍珠、浮游乾核(漂浮靈)、排異之露(無相水)
