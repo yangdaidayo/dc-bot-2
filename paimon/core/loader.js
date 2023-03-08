@@ -19,7 +19,7 @@ export const loadCommands = async () => {
     const appStore = useAppStore()
     const commands = []
     const actions = new Collection()
-    const files = await fg('./paimon/commands/**/index.js')
+    const files = await fg('./paimon/commands/**/**/index.js')
 
     for (const file of files){
         const cmd = await import(file)
