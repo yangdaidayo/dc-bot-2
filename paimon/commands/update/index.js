@@ -6,10 +6,7 @@ export const command = new SlashCommandBuilder()
 
 export const action = async (ctx) =>{
     ctx.reply(`指令又更新啦~旅行者快來一起看看更新了什麼
-1.新增了派蒙
-2.新增了'/help'指令
-3.新增了'/更新日誌'指令
-4.新增了查詢角色素材的指令(詳情請輸入/help查看)
-5.稍微調整了'凶'、'平'、'吉'，三種籤抽到的機率(詳情請輸入/present查看)
-6.新增了派蒙的上線提示`)
+1.新增部分角色的素材查詢
+2.稍微挑整了派蒙的頭像
+3.為神子新增了'活動'指令`)
 }
