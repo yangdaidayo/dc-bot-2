@@ -6,6 +6,7 @@ export const command = new SlashCommandBuilder()
 
 export const action = async (ctx) =>{
     ctx.reply(`指令又更新啦~旅行者快來一起看看更新了什麼
-1.新增了溫迪
-2.全角色素材皆已完成撰寫(有漏再提醒我)`)
+1.為溫迪新增了幾張貼圖
+2.幫神子更新了活動列表
+3.為神子新增了前瞻直播的指令`)
 }
