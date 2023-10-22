@@ -6,8 +6,8 @@ export const event ={
 }
 
 export const action = (c) => {
-    console.log(`Ready! Logged in as ${c.user.tag}`)
-         const channel = c.channels.cache.get('1001340181166698530')
-         channel.send(`派蒙來找旅行者啦~
-預先下載開始嘍`) 
+     console.log(`Ready! Logged in as ${c.user.tag}`)
+//            const channel = c.channels.cache.get('1001340181166698530')
+//            channel.send(`派蒙來找旅行者啦~
+// 深淵要更新啦`) 
 }
